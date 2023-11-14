@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #7182c5;
+}
+.calculator {
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 3px 3px rgb(23, 22, 22);
+    
+    
+}
+.form-select{
+    width: 170px;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+}
+#head{
+    display: flex;
+}
+
+#text{
+    font-weight: 500px;
+    margin-top: 50px;
+    padding-left: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+#text2{
+    padding-left: 70px;
+    font-weight: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b2d5c1;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+
+button {
+    background-color: #264aae;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #15014f;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+
+.underweight {
+    color: #3498db;
+}
+
+
+.normal-weight {
+    color: #2ecc71;
+}
+
+.overweight {
+    color: #f39c12;
+}
+
+.obese {
+    color: #e74c3c;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+#img{
+   left: 100px;
+}
